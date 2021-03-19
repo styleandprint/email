@@ -17,7 +17,7 @@ return betreffClean;
 	</script>
 	<script>
 		<name><![CDATA[charge]]></name>
-		<body><![CDATA[var nr = this.mQuicktext.get_att(["name"]);
+		<body><![CDATA[var nr = this.mQuicktext.get_input(["Chargennr","text"]);
 nrClean = nr.replace(".pdf", "");
 this.mWindow.document.getElementById('msgSubject').value = nrClean;
 return nrClean;
