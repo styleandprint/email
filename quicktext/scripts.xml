@@ -8,8 +8,13 @@ return betreff;
 ]]></body>
 	</script>
 	<script>
-		<name><![CDATA[setfrom]]></name>
+		<name><![CDATA[setFrom]]></name>
 		<body><![CDATA[var from = this.mVariables[0];
 this.mWindow.document.getElementById('msgIdentity').value = from;]]></body>
+	</script>
+	<script>
+		<name><![CDATA[clearEditor]]></name>
+		<body><![CDATA[var editor = this.mWindow.gMsgCompose.editor;
+editor.selectAll();]]></body>
 	</script>
 </quicktext>

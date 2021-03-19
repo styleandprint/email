@@ -21,7 +21,8 @@
 		<texts>
 			<text shortcut="" type="1">
 				<name><![CDATA[Rechnung]]></name>
-				<body><![CDATA[[[SCRIPT=setfrom|Rudolf Koehler GmbH Rechnungen<rechnungen@koehler-etiketten.com>]]
+				<body><![CDATA[[[SCRIPT=setFrom|Rudolf Koehler GmbH Rechnungen <rechnungen@koehler-etiketten.com>]]
+[[SCRIPT=clearEditor]]
 <p>Sehr geehrte Damen und Herren,</p>
 <p>
   Vielen Dank für Ihren Auftrag. Als Anlage erhalten Sie unsere Rechnung.<br>
