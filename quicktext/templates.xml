@@ -22,7 +22,7 @@
 				<name><![CDATA[Rechnung]]></name>
 				<body><![CDATA[<p>Sehr geehrte Damen und Herren,</p>
 <p>
-  Vielen Dank für Ihren Auftrag. Als Anlage erhalten Sie unsere Rechnung Nr. [[SCRIPT=rechnungsnr]].<br>
+  Vielen Dank für Ihren Auftrag. Als Anlage erhalten Sie unsere Rechnung.<br>
   Für die allgemeinen Geschäftsbedingungen verweisen wir auf unsere Homepage (s. Anlage).
 </p>
 ]]></body>
