@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<quicktext version="2">
+	<filetype>templates</filetype>
+	<menu>
+		<title><![CDATA[Freigabe]]></title>
+		<texts>
+			<text shortcut="" type="1">
+				<name><![CDATA[Freigabe]]></name>
+				<body><![CDATA[<p>Sehr geehrte(r) [[TO=displayname]],</p>
+<p>
+  anbei sende ich Ihnen die neue Druckdatei "[[SCRIPT=freigabeArtikelnr]]" zur Freigabe.<br>
+  Bitte überprüfen Sie die Druckvorlage und geben uns diese im Anschluss zum Druck frei.
+</p>
+]]></body>
+			</text>
+		</texts>
+	</menu>
+	<menu>
+		<title><![CDATA[Rechnung]]></title>
+		<texts>
+			<text shortcut="" type="1">
+				<name><![CDATA[Rechnung]]></name>
+				<body><![CDATA[<p>Sehr geehrte Damen und Herren,</p>
+<p>
+  Vielen Dank für Ihren Auftrag. Als Anlage erhalten Sie unsere Rechnung Nr. [[SCRIPT=rechnungsnr]].<br>
+  Für die allgemeinen Geschäftsbedingungen verweisen wir auf unsere Homepage (s. Anlage).
+</p>
+]]></body>
+			</text>
+		</texts>
+	</menu>
+</quicktext>

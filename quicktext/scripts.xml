@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<quicktext version="2">
+	<filetype>scripts</filetype>
+	<script>
+		<name><![CDATA[freigabeArtikelnr]]></name>
+		<body><![CDATA[var betreff = this.mQuicktext.get_subject();
+betreffClean = betreff.replace("Freigabe ", "");
+return betreffClean;
+]]></body>
+	</script>
+	<script>
+		<name><![CDATA[rechnungsnr]]></name>
+		<body><![CDATA[var betreff = this.mQuicktext.get_subject();
+betreffClean = betreff.replace(/\D/g, "");
+return betreffClean;
+]]></body>
+	</script>
+</quicktext>
