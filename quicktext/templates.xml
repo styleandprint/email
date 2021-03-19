@@ -6,9 +6,10 @@
 		<texts>
 			<text shortcut="" type="1">
 				<name><![CDATA[Freigabe]]></name>
+				<subject><![CDATA[Freigabe [[INPUT=Artikelnummer/-name]]]]></subject>
 				<body><![CDATA[<p>Sehr geehrte(r) [[TO=displayname]],</p>
 <p>
-  anbei sende ich Ihnen die neue Druckdatei "[[SCRIPT=freigabeArtikelnr]]" zur Freigabe.<br>
+  anbei sende ich Ihnen die neue Druckdatei "[[SCRIPT=freigabe]]" zur Freigabe.<br>
   Bitte überprüfen Sie die Druckvorlage und geben uns diese im Anschluss zum Druck frei.
 </p>
 ]]></body>
@@ -34,13 +35,14 @@
 		<texts>
 			<text shortcut="" type="1">
 				<name><![CDATA[Charge]]></name>
+				<subject><![CDATA[Charge [[INPUT=Chargennummer]]]]></subject>
 				<body><![CDATA[[[HEADER=to|pruefzertifikate-fuer-kvp-kiel@elancoah.com]]
 <p>Sehr geehrte Damen und Herren,</p>
 <p>
-  als Anlage erhalten Sie Prüfzertifikat und Rollenspiegel für [[SCRIPT=charge]].
+  als Anlage erhalten Sie Prüfzertifikat und Rollenspiegel für Charge [[INPUT=Chargennummer]].
 </p>
 ]]></body>
-				<attachments><![CDATA[\\syno\Dokumente\5. Verwaltung\Scannen\Charge [[INPUT=Chargennr]]]]></attachments>
+				<attachments><![CDATA[\\syno\Dokumente\5. Verwaltung\Scannen\Charge [[INPUT=Chargennummer]].pdf]]></attachments>
 			</text>
 		</texts>
 	</menu>
