@@ -4,8 +4,12 @@
 	<script>
 		<name><![CDATA[freigabe]]></name>
 		<body><![CDATA[var betreff = this.mQuicktext.get_input(["Artikelnummer/-name","text"]);
-betreffClean = betreff.replace("Freigabe ", "");
-return betreffClean;
+return betreff;
 ]]></body>
+	</script>
+	<script>
+		<name><![CDATA[setfrom]]></name>
+		<body><![CDATA[var from = this.mVariables[0];
+this.mWindow.document.getElementById('msgIdentity').value = from;]]></body>
 	</script>
 </quicktext>
