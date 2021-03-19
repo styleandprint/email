@@ -29,4 +29,18 @@
 			</text>
 		</texts>
 	</menu>
+	<menu>
+		<title><![CDATA[Charge]]></title>
+		<texts>
+			<text shortcut="" type="1">
+				<name><![CDATA[Charge]]></name>
+				<body><![CDATA[[[HEADER=to|pruefzertifikate-fuer-kvp-kiel@elancoah.com]]
+<p>Sehr geehrte Damen und Herren,</p>
+<p>
+  Als Anlage erhalten Sie Prüfzertifikat und Rollenspiegel für [[SCRIPT=charge]].
+</p>
+]]></body>
+			</text>
+		</texts>
+	</menu>
 </quicktext>

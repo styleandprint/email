@@ -15,4 +15,12 @@ betreffClean = betreff.replace(/\D/g, "");
 return betreffClean;
 ]]></body>
 	</script>
+	<script>
+		<name><![CDATA[charge]]></name>
+		<body><![CDATA[var nr = this.mQuicktext.get_att(["name"]);
+nrClean = nr.replace(".pdf", "");
+this.mWindow.document.getElementById('msgSubject').value = nrClean;
+return nrClean;
+]]></body>
+	</script>
 </quicktext>
