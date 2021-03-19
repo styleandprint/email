@@ -82,4 +82,18 @@
 			</text>
 		</texts>
 	</menu>
+	<menu>
+		<title><![CDATA[Bestellung]]></title>
+		<texts>
+			<text shortcut="" type="1">
+				<name><![CDATA[Bestellung]]></name>
+				<subject><![CDATA[Bestellung [[SCRIPT=getNr]]]]></subject>
+				<body><![CDATA[<p>Sehr geehrte Damen und Herren,</p>
+<p>
+  als Anlage erhalten Sie unsere Bestellung Nr. [[SCRIPT=getNr]].
+</p>
+]]></body>
+			</text>
+		</texts>
+	</menu>
 </quicktext>

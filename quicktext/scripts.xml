@@ -17,4 +17,12 @@ this.mWindow.document.getElementById('msgIdentity').value = from;]]></body>
 		<body><![CDATA[var editor = this.mWindow.gMsgCompose.editor;
 editor.selectAll();]]></body>
 	</script>
+	<script>
+		<name><![CDATA[getNr]]></name>
+		<body><![CDATA[var re = /(?<=_)\d*(?=.)/g;
+var att = this.mQuicktext.get_att(["name"]);
+var nr = att.match(re);
+return nr;
+]]></body>
+	</script>
 </quicktext>
