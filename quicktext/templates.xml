@@ -96,4 +96,18 @@
 			</text>
 		</texts>
 	</menu>
+	<menu>
+		<title><![CDATA[Auftragsbestätigung]]></title>
+		<texts>
+			<text shortcut="" type="1">
+				<name><![CDATA[Auftragsbestätigung]]></name>
+				<subject><![CDATA[Auftragsbestätigung zu Ihrer Bestellung [[INPUT=Bestellung]]]]></subject>
+				<body><![CDATA[<p>Sehr geehrte Damen und Herren,</p>
+<p>
+  als Anlage erhalten Sie die Auftragsbestätigung zu der Bestellung [[INPUT=Bestellung]].
+</p>
+]]></body>
+			</text>
+		</texts>
+	</menu>
 </quicktext>
