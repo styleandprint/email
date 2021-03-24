@@ -101,10 +101,11 @@
 		<texts>
 			<text shortcut="" type="1">
 				<name><![CDATA[Auftragsbestätigung]]></name>
-				<subject><![CDATA[Auftragsbestätigung zu Ihrer Bestellung [[INPUT=Bestellung]]]]></subject>
+				<subject><![CDATA[Auftragsbestätigung zu Ihrer Bestellung "[[INPUT=Bestellung]]"]]></subject>
 				<body><![CDATA[<p>Sehr geehrte Damen und Herren,</p>
 <p>
-  als Anlage erhalten Sie die Auftragsbestätigung zu der Bestellung [[INPUT=Bestellung]].
+vielen Dank für Ihre Bestellung. Als Anlage erhalten Sie unsere Auftragsbestätigung zu Ihrer Bestellung <em>[[INPUT=Bestellung]]</em>.<br>
+Für die Allgemeinen Geschäftsbedingungen verweisen wir auf unsere Homepage.
 </p>
 ]]></body>
 			</text>
@@ -118,7 +119,8 @@
 				<subject><![CDATA[Angebot [[SCRIPT=getNr]]]]></subject>
 				<body><![CDATA[<p>Sehr geehrte Damen und Herren,</p>
 <p>
-  als Anlage erhalten Sie unser Angebot Nr. [[SCRIPT=getNr]].
+vielen Dank für Ihre Anfrage. Als Anlage erhalten Sie unser Angebot Nr. [[SCRIPT=getNr]]. Über eine Auftragserteilung würden wir uns sehr freuen.<br>
+Für die Allgemeinen Geschäftsbedingungen verweisen wir auf unsere Homepage.
 </p>
 ]]></body>
 			</text>
