@@ -22,6 +22,7 @@
 			<text shortcut="" type="1">
 				<name><![CDATA[Rechnung]]></name>
 				<body><![CDATA[[[SCRIPT=setFrom|Rudolf Koehler GmbH Rechnungen <rechnungen@koehler-etiketten.com>]]
+[[HEADER=bcc|161dbba6-bb8f-478e-af46-7af0636f7d83@uploadmail.datev.de]]
 [[SCRIPT=clearEditor]]
 <p>Sehr geehrte Damen und Herren,</p>
 <p>
