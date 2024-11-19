@@ -80,7 +80,7 @@
   als Anlage erhalten Sie Prüfzertifikat und Rollenspiegel für Charge [[INPUT=Chargennummer]].
 </p>
 ]]></body>
-				<attachments><![CDATA[\\syno\Dokumente\5. Verwaltung\Scannen\Charge [[INPUT=Chargennummer]].pdf]]></attachments>
+				<attachments><![CDATA[\\syno\Dokumente\5. Verwaltung\Scannen\[[INPUT=Chargennummer]].pdf]]></attachments>
 			</text>
 		</texts>
 	</menu>
